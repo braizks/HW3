@@ -60,7 +60,10 @@ public class PathFinder {
     // public static Position [] queueSearch(char [][] maze)
 
     // TODO: implement the method stackSearch
-    // public static Position [] stackSearch(char [][] maze)
+    public static Position [] stackSearch(char [][] maze) {
+    	Stack<Position> xPath=new Stack<>();
+        int xLength=maze.length;
+    }
 
     // prints path through maze
     public static void printPath(Position [] path){
